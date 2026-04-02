@@ -1,0 +1,93 @@
+# ==========================================
+# İŞLETİM SİSTEMİ VE IDE (Editör) DOSYALARI
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==========================================
+# FRONTEND (React / Vite / Node.js)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ==========================================
+# BACKEND (Python / YOLO / OpenCV)
+# ==========================================
+# Çevresel Değişkenler
+backend/.env
+backend/.flaskenv
+
+# Python Sanal Ortamları
+backend/venv/
+backend/env/
+backend/.venv/
+backend/env.bak/
+backend/venv.bak/
+
+# Python Derlenmiş ve Önbellek Dosyaları
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# Veritabanı Dosyaları
+backend/*.sqlite3
+backend/*.db
+backend/instance/
+
+# Log Dosyaları
+backend/*.log
+logs/
+*.log
+
+# ==========================================
+# YAPAY ZEKA VE KARAKUTU (PROJEYE ÖZEL)
+# ==========================================
+# YOLO tarafından otomatik oluşturulan çıktı klasörleri
+backend/runs/
+
+# Karakutu sisteminin kaydettiği test videoları ve resimler
+backend/uploads/
+backend/karakutu/
+backend/kayitlar/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Model Ağırlık Dosyaları
+# Eğer best_v9c.pt veya diğer model ağırlıklarının Github'a gitmesini istiyorsanız,
+# bu satırı yoruma alabilir veya sadece o dosyayı 'git add -f' ile ekleyebilirsiniz.
+*.pt
+*.pth
+*.onnx
+*.weights
+*.engine
