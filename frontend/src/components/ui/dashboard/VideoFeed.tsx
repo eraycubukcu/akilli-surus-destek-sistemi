@@ -11,7 +11,7 @@ interface VideoFeedProps {
 export const VideoFeed: React.FC<VideoFeedProps> = ({ isConnected, tehlike }) => {
   return (
     <div className={`relative rounded-2xl overflow-hidden border-2 aspect-video shadow-2xl transition-colors duration-300 ${
-      tehlike ? 'border-red-500 shadow-red-500/20' : 'bg-gray-200'
+      tehlike ? 'border-red-500 shadow-red-500/20' : 'border-slate-700 bg-gray-900'
     }`}>
       {isConnected ? (
         <img 

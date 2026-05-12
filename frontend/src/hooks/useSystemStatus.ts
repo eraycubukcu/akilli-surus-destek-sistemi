@@ -23,8 +23,9 @@ export const useSystemStatus = (pollingInterval = 300) => {
       }
     };
 
+    checkStatus();
     const intervalId = setInterval(checkStatus, pollingInterval);
-    return () => clearInterval(intervalId); // Cleanup function
+    return () => clearInterval(intervalId);
   }, [pollingInterval]);
   return { status, isConnected };
 };

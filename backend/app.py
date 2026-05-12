@@ -47,7 +47,7 @@ SINIF_CEVIRILERI = {
     'Inter-de faire demi-tour': 'U Donusu Yasak',
     'Inter-de tourner a droite': 'Sağa Donus Yasak',
     'Inter-de tourner a gauche': 'Sola Donus Yasak',
-    'Inter-sens': 'Girisi Olmayan Yol',
+    'Inter-sens': 'Girişi Olmayan Yol',
     'Inter-stationnement': 'Park Etmek Yasak',
     'Inter-vitesse limitee a -100km-h-': 'Hiz Limiti 100',
     'Inter-vitesse limitee a -120km-h-': 'Hiz Limiti 120',

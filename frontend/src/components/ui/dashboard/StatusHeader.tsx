@@ -1,5 +1,4 @@
-import { ActivityIcon } from "lucide-react";
-import React, { Activity } from "react";
+import React from "react";
 
 interface StatusHeaderProps {
   fps:number,
@@ -21,7 +20,7 @@ const StatusHeader: React.FC<StatusHeaderProps> = ({fps,isConnected}) => {
         <div className={`flex items-center gap-2 px-4 py-2 rounded-full border ${
           isConnected
           ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400'
-          : ' bg-red-500-10 border-red-500/20 text-red-400'
+          : 'bg-red-500/10 border-red-500/20 text-red-400'
         } `}>
           <div className={`w-2.5 h-2.5 rounded-full ${isConnected ? 'bg-emerald-500 animate-pulse' : 'bg-red-500'}`} />
           <span className="text-sm font-medium">{isConnected ? 'Sistem Aktif' : 'Bağlantı Yok'}</span>

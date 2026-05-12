@@ -1,7 +1,7 @@
 export interface Detection {
   isim: string;
   guven: number;
-  durum: "Guvenli" | "Uyarı" | "Tehlike";
+  durum: "Güvenli" | "Uyarı" | "Tehlike";
 }
 
 export interface SystemStatus {
